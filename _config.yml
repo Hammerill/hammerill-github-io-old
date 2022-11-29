@@ -59,7 +59,6 @@ about_content: | # this will include new lines to allow paragraphs
     * etc...
   - 🍵 Also a lot of time was directed to self-study.
   - 🏫 In september of 2022 started studying in Lycée Léonce Vieljeux, La Rochelle, France, computer science object.
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
