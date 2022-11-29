@@ -40,13 +40,14 @@ content:
     layout: list
     content:
       - title: Sand-Box2D
+        border: weak
         layout: top-middle
-        link: https://github.com/Hammerill/Sand-Box2D
-        link_text: GitHub
-        # additional_links:
-          # - title:  GitHub
-          #   icon: fab fa-github
-          #   url: https://github.com/Hammerill/Sand-Box2D
+        # link: https://github.com/Hammerill/Sand-Box2D
+        # link_text: GitHub
+        additional_links:
+          - title:  GitHub
+            icon: fab fa-github
+            url: https://github.com/Hammerill/Sand-Box2D
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -59,16 +60,17 @@ content:
           This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want.
       
       - title: uMario Vita
+        border: weak
         layout: top-middle
-        link: https://github.com/Hammerill/uMario_Vita
-        link_text: GitHub
+        # link: https://github.com/Hammerill/uMario_Vita
+        # link_text: GitHub
         additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/Hammerill/uMario_Vita
           - title: Get on VitaDB
             icon: fab fa-playstation
             url: https://vitadb.rinnegatamante.it/#/info/830
-          # - title: GitHub
-          #   icon: fab fa-github
-          #   url: https://github.com/Hammerill/uMario_Vita
         quote: >
           Another uMario port for PSVita.
         description: |
@@ -78,6 +80,7 @@ content:
           Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
 
       - title: TelegramBotTranslator
+        border: weak
         layout: top-middle
         link: https://github.com/Hammerill/TelegramBotTranslator
         link_text: GitHub
