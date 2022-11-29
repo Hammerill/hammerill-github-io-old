@@ -1,7 +1,7 @@
 repository: Hammerill/hammerill.github.io
 favicon: images/favicon.ico
 
-version: 1
+version: 2
 
 name: Kirill (Kyrylo) Petrov
 title: Student of Lycée Vieljeux
@@ -36,94 +36,43 @@ about_content: |
   - 🏫 In september of 2022 started studying in Lycée Léonce Vieljeux, La Rochelle, France, computer science object.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+      - title: Sand-Box2D
+        layout: left
+        link: https://github.com/Hammerill/Sand-Box2D
+        link_text: View at GitHub
+        # additional_links:
+          # - title:  View at GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/Hammerill/Sand-Box2D
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          An open source cross-platform game based on Box2D with SDL2.
+        description: |
+          # ![Logo](./images/Sand-Box2D.jpg)
+          
+          This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want.
+      - title: uMario Vita
+        layout: left
+        link: https://github.com/Hammerill/uMario_Vita
+        # link_text: View at GitHub
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title: Get on VitaDB
+            icon: fab fa-playstation
+            url: https://vitadb.rinnegatamante.it/#/info/830
+          # - title: View at GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/Hammerill/uMario_Vita
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
-
-# content:
-#   - title: Projects
-#     layout: list
-#     content:
-#       - title: Sand-Box2D
-#         layout: left
-#         link: https://github.com/Hammerill/Sand-Box2D
-#         link_text: View at GitHub
-#         # additional_links:
-#           # - title:  View at GitHub
-#           #   icon: fab fa-github
-#           #   url: https://github.com/Hammerill/Sand-Box2D
-#           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#           #   icon: fab fa-github
-#           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#         quote: >
-#           An open source cross-platform game based on Box2D with SDL2.
-#         description: |
-#           # ![Logo](./images/Sand-Box2D.jpg)
+          Another uMario port for PSVita.
+        description: |
+          # ![Logo](./images/uMario_Vita.jpg)
           
-#           This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want.
-#       - title: uMario Vita
-#         layout: left
-#         link: https://github.com/Hammerill/uMario_Vita
-#         # link_text: View at GitHub
-#         additional_links:
-#           - title: Get on VitaDB
-#             icon: fab fa-playstation
-#             url: https://vitadb.rinnegatamante.it/#/info/830
-#           # - title: View at GitHub
-#           #   icon: fab fa-github
-#           #   url: https://github.com/Hammerill/uMario_Vita
-#         quote: >
-#           Another uMario port for PSVita.
-#         description: |
-#           # ![Logo](./images/uMario_Vita.jpg)
-          
-#           Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
+          Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
 
 footer_show_references: false
 
