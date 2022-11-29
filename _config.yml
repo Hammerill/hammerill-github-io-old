@@ -1,52 +1,27 @@
-# Site
 repository: Hammerill/hammerill.github.io
 favicon: images/favicon.ico
 
-# Content configuration version
 version: 1
 
-# Personal info
 name: Kirill (Kyrylo) Petrov
 title: Student of Lycée Vieljeux
 email: www.hammerill@gmail.com
 
-# Dark Mode (true/false/never)
 darkmode: true
 
-# Social links
 twitter_username: Hammerill
 github_username:  Hammerill
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
 instagram_username: hammerill_inst
 linkedin_username: kirill-petrov-42b609245
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
 additional_links:
 - title: Telegram
   icon: fab fa-telegram
   url: https://t.me/Hammerill
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
 about_title: Bonjour!
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   My name is Kirill, I live in 🇫🇷 France, I'm from 🇺🇦 Ukraine and this is the facts about me:
   - 🎓 I Was studying in private IT academy [IT Step](https://mariupol.itstep.org/) for 2 years. 
   Couldn't finish degree due to the war. 
@@ -59,15 +34,16 @@ about_content: | # this will include new lines to allow paragraphs
     * etc...
   - 🍵 Also a lot of time was directed to self-study.
   - 🏫 In september of 2022 started studying in Lycée Léonce Vieljeux, La Rochelle, France, computer science object.
+
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
         title: Sand-Box2D
         link: https://github.com/Hammerill/Sand-Box2D
-        link_text: View at GitHub
-        additional_links:
+        # link_text: View at GitHub
+        # additional_links:
           # - title:  View at GitHub
           #   icon: fab fa-github
           #   url: https://github.com/Hammerill/Sand-Box2D
@@ -76,33 +52,30 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           An open source cross-platform game based on Box2D with SDL2.
-        description: | # this will include new lines to allow paragraphs
+        description: |
           ![Logo](./images/Sand-Box2D.jpg)
           
           This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want.
       - layout: left
         title: uMario Vita
         link: https://github.com/Hammerill/uMario_Vita
-        link_text: View at GitHub
+        # link_text: View at GitHub
         additional_links:
-          # - title: View at GitHub
-          #   icon: fab fa-github
-          #   url: https://github.com/Hammerill/uMario_Vita
           - title: Get on VitaDB
             icon: fab fa-playstation
             url: https://vitadb.rinnegatamante.it/#/info/830
+          # - title: View at GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/Hammerill/uMario_Vita
         quote: >
           Another uMario port for PSVita.
-        description: | # this will include new lines to allow paragraphs
+        description: |
           ![Logo](./images/uMario_Vita.jpg)
           
           Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
 
-# Footer
 footer_show_references: false
-# references_title: References on request (Override references text)
 
-# Build settings
 remote_theme: sproogen/resume-theme
 
 sass:
