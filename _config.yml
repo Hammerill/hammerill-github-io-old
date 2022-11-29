@@ -40,11 +40,11 @@ content:
     layout: list
     content:
       - title: Sand-Box2D
-        layout: left
+        layout: top-middle
         link: https://github.com/Hammerill/Sand-Box2D
-        link_text: View at GitHub
+        link_text: GitHub
         # additional_links:
-          # - title:  View at GitHub
+          # - title:  GitHub
           #   icon: fab fa-github
           #   url: https://github.com/Hammerill/Sand-Box2D
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -55,16 +55,18 @@ content:
         description: |
           # ![Logo](./images/Sand-Box2D.jpg)
           
+
           This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want.
+      
       - title: uMario Vita
-        layout: left
+        layout: top-middle
         link: https://github.com/Hammerill/uMario_Vita
-        # link_text: View at GitHub
+        link_text: GitHub
         additional_links:
           - title: Get on VitaDB
             icon: fab fa-playstation
             url: https://vitadb.rinnegatamante.it/#/info/830
-          # - title: View at GitHub
+          # - title: GitHub
           #   icon: fab fa-github
           #   url: https://github.com/Hammerill/uMario_Vita
         quote: >
@@ -72,7 +74,24 @@ content:
         description: |
           # ![Logo](./images/uMario_Vita.jpg)
           
+
           Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
+
+      - title: TelegramBotTranslator
+        layout: top-middle
+        link: https://github.com/Hammerill/TelegramBotTranslator
+        link_text: GitHub
+        additional_links:
+          # - title: GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/Hammerill/TelegramBotTranslator
+        quote: >
+          Telegram bot written in C# that translates text from many languages using GoogleAPI.
+        description: |
+          My test project of using .NET with EntityFW, Telegram bots, SQLite, JSON parser and etc.
+
+          It's kinda outdated right now. I need to make a "revived" version later.
+      
 
 footer_show_references: false
 
