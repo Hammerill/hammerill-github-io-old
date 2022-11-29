@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 1
 
 # Personal info
-name: Kirill Petrov
+name: Kirill (Kyrylo) Petrov
 title: Student of Lycée Vieljeux
 email: www.hammerill@gmail.com
 
@@ -21,7 +21,7 @@ github_username:  Hammerill
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: hammerill_inst
-linkedin_username: Hammerill
+linkedin_username: kirill-petrov-42b609245
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -64,7 +64,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Sand-Box2D
         link: https://github.com/Hammerill/Sand-Box2D
         link_text: View at GitHub
@@ -80,25 +80,24 @@ content:
         description: | # this will include new lines to allow paragraphs
           ![Logo](./images/Sand-Box2D.jpg)
           
-          This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want
-      
-      # - layout: top-middle
-      #   title: uMario Vita
-      #   link: https://github.com/Hammerill/uMario_Vita
-      #   link_text: View at GitHub
-      #   additional_links:
-      #     # - title: View at GitHub
-      #     #   icon: fab fa-github
-      #     #   url: https://github.com/Hammerill/uMario_Vita
-      #     - title: Get on VitaDB
-      #       icon: fab fa-playstation
-      #       url: https://vitadb.rinnegatamante.it/#/info/830
-      #   quote: >
-      #     Another uMario port for PSVita.
-      #   description: | # this will include new lines to allow paragraphs
-      #     ![Logo](./images/uMario_Vita.jpg)
+          This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want.
+      - layout: left
+        title: uMario Vita
+        link: https://github.com/Hammerill/uMario_Vita
+        link_text: View at GitHub
+        additional_links:
+          # - title: View at GitHub
+          #   icon: fab fa-github
+          #   url: https://github.com/Hammerill/uMario_Vita
+          - title: Get on VitaDB
+            icon: fab fa-playstation
+            url: https://vitadb.rinnegatamante.it/#/info/830
+        quote: >
+          Another uMario port for PSVita.
+        description: | # this will include new lines to allow paragraphs
+          ![Logo](./images/uMario_Vita.jpg)
           
-      #     Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
+          Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
 
 # Footer
 footer_show_references: false
