@@ -44,12 +44,10 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Bonjour!
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Bonjour! My name is Kirill, I live in 🇫🇷 France, I'm from 🇺🇦 Ukraine and I'm learning several programming languages and technologies. Right now I'm making projects mainly on C++.
-
-  That's the facts about me:
+  My name is Kirill, I live in 🇫🇷 France, I'm from 🇺🇦 Ukraine and this is the facts about me:
   - 🎓 I Was studying in private IT academy [IT Step](https://mariupol.itstep.org/) for 2 years. 
   Couldn't finish degree due to the war. 
   Branch - IT programmer, several languages and technologies:
@@ -84,23 +82,23 @@ content:
           
           This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want
       
-      - layout: top-middle
-        title: uMario Vita
-        link: https://github.com/Hammerill/uMario_Vita
-        link_text: View at GitHub
-        additional_links:
-          # - title: View at GitHub
-          #   icon: fab fa-github
-          #   url: https://github.com/Hammerill/uMario_Vita
-          - title: Get on VitaDB
-            icon: fab fa-playstation
-            url: https://vitadb.rinnegatamante.it/#/info/830
-        quote: >
-          Another uMario port for PSVita.
-        description: | # this will include new lines to allow paragraphs
-          ![Logo](./images/uMario_Vita.jpg)
+      # - layout: top-middle
+      #   title: uMario Vita
+      #   link: https://github.com/Hammerill/uMario_Vita
+      #   link_text: View at GitHub
+      #   additional_links:
+      #     # - title: View at GitHub
+      #     #   icon: fab fa-github
+      #     #   url: https://github.com/Hammerill/uMario_Vita
+      #     - title: Get on VitaDB
+      #       icon: fab fa-playstation
+      #       url: https://vitadb.rinnegatamante.it/#/info/830
+      #   quote: >
+      #     Another uMario port for PSVita.
+      #   description: | # this will include new lines to allow paragraphs
+      #     ![Logo](./images/uMario_Vita.jpg)
           
-          Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
+      #     Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
 
 # Footer
 footer_show_references: true
