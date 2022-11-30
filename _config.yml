@@ -54,8 +54,7 @@ content:
         quote: >
           An open source cross-platform game based on Box2D with SDL2.
         description: |
-          # ![Logo](./images/Sand-Box2D.jpg)
-          
+          [![Logo](./images/Sand-Box2D.jpg)](https://github.com/Hammerill/Sand-Box2D)
 
           This project was developed mainly for educational purposes. I've started developing it for myself just to understand basis of Box2D, how to link it with SDL2 and etc. But then, I've realized it could be more than just some rewritten code: a game. So, I took [this project](https://github.com/eder13/Box2D-SDL2-Demo) as the base, have rewritten it from zero using OOP, and now you're free to play this game and use its code at way as you want.
       
@@ -74,20 +73,19 @@ content:
         quote: >
           Another uMario port for PSVita.
         description: |
-          # ![Logo](./images/uMario_Vita.jpg)
-          
+          [![Logo](./images/uMario_Vita.jpg)](https://github.com/Hammerill/uMario_Vita)
 
           Just port, another port of this game. The fact that this port to PS Vita already was created before also surprised me.
 
       - title: TelegramBotTranslator
         border: weak
         layout: top-middle
-        link: https://github.com/Hammerill/TelegramBotTranslator
-        link_text: GitHub
+#         link: https://github.com/Hammerill/TelegramBotTranslator
+#         link_text: GitHub
         additional_links:
-          # - title: GitHub
-          #   icon: fab fa-github
-          #   url: https://github.com/Hammerill/TelegramBotTranslator
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/Hammerill/TelegramBotTranslator
         quote: >
           Telegram bot written in C# that translates text from many languages using GoogleAPI.
         description: |
